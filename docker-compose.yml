@@ -10,7 +10,7 @@ services:
     volumes:
       - html:/var/www/html/:ro
   phpbb:
-    build: ./php/
+    build: ./phpbb/
     restart: always
     expose:
       - "9000"

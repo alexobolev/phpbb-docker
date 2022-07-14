@@ -29,7 +29,6 @@ RUN apk add --no-cache \
 RUN docker-php-ext-install \
         gd \
         pgsql
-        # pdo_pgsql
 RUN apk del --purge \
         $MY_BUILD_DEPS
 
